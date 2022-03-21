@@ -159,3 +159,4 @@ class AboutRegularExpressions < Neo::Koan
     assert_equal "one t-t", "one two-three".gsub(/(t\w*)/) { $1[0, 1] }
   end
 end
+

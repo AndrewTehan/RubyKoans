@@ -138,5 +138,4 @@ class AboutControlStatements < Neo::Koan
     end
     assert_equal 10, sum
   end
-
 end
